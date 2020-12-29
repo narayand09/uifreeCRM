@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="450.455" tests="11" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="UIFreeCRMTest"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="2"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="VS90COMNTOOLS" value="C:\Program Files\Microsoft Visual Studio 9.0\Common7\Tools\"/>
+    <property name="JENKINS_HOME" value="C:\Users\Narayan\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="6b61bb5863bc4290"/>
+    <property name="POM_ARTIFACTID" value="UI.FreeCRM"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_20\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="UI.FreeCRM"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\Narayan\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+    <property name="ANT_HOME" value="D:\SeleniumStuff\apache-ant-1.10.3-bin\apache-ant-1.10.3"/>
+    <property name="user.name" value="Narayan"/>
+    <property name="LSERVRC" value="C:\Program Files\Common Files\Mercury Interactive\License Manager\lservrc"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="UIFreeCRMTest"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/UIFreeCRMTest/5/display/redirect?page=changes"/>
+    <property name="M2" value="D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin"/>
+    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Narayan\AppData\Local"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Narayan"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="5"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="SCITE_USERHOME" value="C:\Users\Narayan\AppData\Local\AutoIt v3\SciTE"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_20\jre"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="os.version" value="6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/UIFreeCRMTest/5/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\Narayan\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.20-b23"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/UIFreeCRMTest/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_20"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\Narayan"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="NARAYAN-PC"/>
+    <property name="POM_GROUPID" value="UI.FreeCRM"/>
+    <property name="user.home" value="C:\Users\Narayan"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-UIFreeCRMTest-5"/>
+    <property name="JENKINS_SERVER_COOKIE" value="6b61bb5863bc4290"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Narayan"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk1.8.0_20/bin;C:\Program Files\Java\jdk1.8.0_20/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Users\Narayan\AppData\Local\Smartbar\Application\;%M2_HOME%\bin;C:\Program Files\Java\jdk1.8.0_20\bin;D:\SeleniumStuff\apache-ant-1.10.3-bin\apache-ant-1.10.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\CrSSL\bin;C:\Program Files\Git\bin;D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Users\Narayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Narayan\AppData\Roaming\npm;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Narayan\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3"/>
+    <property name="java.class.path" value="C:\Users\Narayan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3 C:\Users\Narayan\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\Narayan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Narayan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 49260"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_20/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\PC Connectivity Solution\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Users\Narayan\AppData\Local\Smartbar\Application\;%M2_HOME%\bin;C:\Program Files\Java\jdk1.8.0_20\bin;D:\SeleniumStuff\apache-ant-1.10.3-bin\apache-ant-1.10.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\CrSSL\bin;C:\Program Files\Git\bin;D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;C:\Users\Narayan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Narayan\AppData\Roaming\npm"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_20/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 37 Stepping 5, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3"/>
+    <property name="=D:" value="D:\Java_2019\Jenkins"/>
+    <property name="java.io.tmpdir" value="C:\Users\Narayan\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Narayan\.jenkins"/>
+    <property name="PATH+MAVEN" value="D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/UIFreeCRMTest/5/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="x86"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="D:\Java_2019\UI.FreeCRM"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/UIFreeCRMTest/"/>
+    <property name="LOGONSERVER" value="\\NARAYAN-PC"/>
+    <property name="USERDOMAIN" value="Narayan-PC"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="D:\SeleniumStuff\apache-maven-3.5.3-bin\apache-maven-3.5.3"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="BUILD_NUMBER" value="5"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="2505"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\Narayan"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Narayan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Narayan\.jenkins\workspace\UIFreeCRMTest@tmp"/>
+    <property name="WORKSPACE" value="C:\Users\Narayan\.jenkins\workspace\UIFreeCRMTest"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Narayan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.123"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0.014"/>
+  <testcase name="verifyContactsPageLabel" classname="com.crm.qa.testcases.ContactsPageTest" time="0.4"/>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.587"/>
+  <testcase name="verifyUserNameTest" classname="com.crm.qa.testcases.HomePageTest" time="2.047"/>
+  <testcase name="selectContactsByNameTest" classname="com.crm.qa.testcases.ContactsPageTest" time="3.412"/>
+  <testcase name="verifyContactLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="10.443"/>
+  <testcase name="multipleContactsByNameTest" classname="com.crm.qa.testcases.ContactsPageTest" time="3.558"/>
+  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="429.871">
+    <failure message="timeout: Timed out receiving message from renderer: 10.000&#10;  (Session info: chrome=87.0.4280.88)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;NARAYAN-PC&apos;, ip: &apos;192.168.43.204&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 44297dff3bf295588172f27d571b4ddc" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 44297dff3bf295588172f27d571b4ddc
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.crm.qa.pages.ContactPage.createNewContact(ContactPage.java:80)
+	at com.crm.qa.testcases.ContactsPageTest.createNewContactTest(ContactsPageTest.java:67)
+</failure>
+    <system-out><![CDATA[2020-12-29 16:12:534 INFO  ContactsPageTest :86 -tearDown method is called
+2020-12-29 16:12:550 INFO  ContactsPageTest :79 -Data read successfully from excel sheet
+2020-12-29 16:12:465 INFO  TestBase :49 -Chromer Browser Propery set up and launched successfully
+2020-12-29 16:12:465 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:635 INFO  WaitHelper :26 -WaitHelper object created
+2020-12-29 16:12:635 INFO  WaitHelper :30 -Implicit wait has been set to  .. 120
+2020-12-29 16:12:645 INFO  WaitHelper :137 -Waiting Page to lod for  SECONDS  seconds
+2020-12-29 16:12:655 INFO  WaitHelper :139 -Page is loaded
+Before Navigating to: https://ui.freecrm.com/ 
+Navigated to: https://ui.freecrm.com/ 
+2020-12-29 16:12:575 INFO  TestBase :71 -Driver navigated to...https://ui.freecrm.com/
+2020-12-29 16:12:576 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:578 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:578 INFO  ActionsHelper :17 -ActionsHelper constructor called
+2020-12-29 16:12:579 INFO  WaitHelper :26 -WaitHelper object created
+2020-12-29 16:12:581 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:582 INFO  LoginPage :32 -LoginPage is initialized
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> name: email]
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> name: password]
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> xpath: //*[text()='Login']]
+Before clicking on element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> xpath: //*[text()='Login']]
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> xpath: //*[text()='Login']]
+2020-12-29 16:12:243 INFO  TestBase :34 -Properties file loaded successfully
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> xpath: //a[@href='/contacts']/child::i]
+Before clicking on element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> xpath: //a[@href='/contacts']/child::i]
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> xpath: //a[@href='/contacts']/child::i]
+2020-12-29 16:12:420 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:426 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:426 INFO  ActionsHelper :17 -ActionsHelper constructor called
+2020-12-29 16:12:427 INFO  WaitHelper :26 -WaitHelper object created
+2020-12-29 16:12:427 INFO  ContactsPageTest :39 -class com.crm.qa.testcases.ContactsPageTest  Setup method is called..
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> xpath: //button[text()='New']]
+Before clicking on element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> xpath: //button[text()='New']]
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (44297dff3bf295588172f27d571b4ddc)] -> xpath: //button[text()='New']]
+Before find by element: null
+---------Exception Occurred ------
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='first_name']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 44297dff3bf295588172f27d571b4ddc
+*** Element info: {Using=name, value=first_name}
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 44297dff3bf295588172f27d571b4ddc
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 44297dff3bf295588172f27d571b4ddc
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 44297dff3bf295588172f27d571b4ddc
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 44297dff3bf295588172f27d571b4ddc
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 44297dff3bf295588172f27d571b4ddc
+Going to capture ScreenShot
+Screen shot captured successfully
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 20948
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1609237897.425][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+Dec 29, 2020 4:01:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1609238045.720][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238045.721][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238055.722][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238065.732][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238065.732][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238075.734][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238085.749][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238085.749][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238095.749][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238105.764][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238105.764][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238115.764][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238125.771][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238125.772][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238135.777][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238145.785][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238145.785][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238155.786][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238165.801][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238165.802][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238175.807][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238185.814][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238185.815][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238195.817][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238205.827][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238205.828][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238215.834][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238225.850][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238225.851][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238235.852][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238245.867][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238245.867][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238255.869][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238265.916][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238265.916][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238275.917][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238285.931][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238285.931][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238295.931][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238305.940][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238305.941][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238315.941][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238325.955][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238325.955][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238335.956][SEVERE]: Timed out receiving message from renderer: 10.000
+]]></system-err>
+  </testcase>
+  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="384.321">
+    <failure message="timeout: Timed out receiving message from renderer: 10.000&#10;  (Session info: chrome=87.0.4280.88)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;NARAYAN-PC&apos;, ip: &apos;192.168.43.204&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 15f2e15bea458faa9fbfe85493aa20a1" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 15f2e15bea458faa9fbfe85493aa20a1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.crm.qa.pages.ContactPage.createNewContact(ContactPage.java:80)
+	at com.crm.qa.testcases.ContactsPageTest.createNewContactTest(ContactsPageTest.java:67)
+</failure>
+    <system-out><![CDATA[2020-12-29 16:12:119 INFO  ContactsPageTest :86 -tearDown method is called
+2020-12-29 16:12:834 INFO  TestBase :49 -Chromer Browser Propery set up and launched successfully
+2020-12-29 16:12:834 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:699 INFO  WaitHelper :26 -WaitHelper object created
+2020-12-29 16:12:699 INFO  WaitHelper :30 -Implicit wait has been set to  .. 120
+2020-12-29 16:12:709 INFO  WaitHelper :137 -Waiting Page to lod for  SECONDS  seconds
+2020-12-29 16:12:719 INFO  WaitHelper :139 -Page is loaded
+Before Navigating to: https://ui.freecrm.com/ 
+Navigated to: https://ui.freecrm.com/ 
+2020-12-29 16:12:807 INFO  TestBase :71 -Driver navigated to...https://ui.freecrm.com/
+2020-12-29 16:12:807 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:809 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:809 INFO  ActionsHelper :17 -ActionsHelper constructor called
+2020-12-29 16:12:810 INFO  WaitHelper :26 -WaitHelper object created
+2020-12-29 16:12:810 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:811 INFO  LoginPage :32 -LoginPage is initialized
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> name: email]
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> name: password]
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> xpath: //*[text()='Login']]
+Before clicking on element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> xpath: //*[text()='Login']]
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> xpath: //*[text()='Login']]
+2020-12-29 16:12:414 INFO  TestBase :34 -Properties file loaded successfully
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> xpath: //a[@href='/contacts']/child::i]
+Before clicking on element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> xpath: //a[@href='/contacts']/child::i]
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> xpath: //a[@href='/contacts']/child::i]
+2020-12-29 16:12:526 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:526 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:526 INFO  ActionsHelper :17 -ActionsHelper constructor called
+2020-12-29 16:12:526 INFO  WaitHelper :26 -WaitHelper object created
+2020-12-29 16:12:526 INFO  ContactsPageTest :39 -class com.crm.qa.testcases.ContactsPageTest  Setup method is called..
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> xpath: //button[text()='New']]
+Before clicking on element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> xpath: //button[text()='New']]
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (15f2e15bea458faa9fbfe85493aa20a1)] -> xpath: //button[text()='New']]
+Before find by element: null
+---------Exception Occurred ------
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='first_name']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 15f2e15bea458faa9fbfe85493aa20a1
+*** Element info: {Using=name, value=first_name}
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 15f2e15bea458faa9fbfe85493aa20a1
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 15f2e15bea458faa9fbfe85493aa20a1
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 15f2e15bea458faa9fbfe85493aa20a1
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 15f2e15bea458faa9fbfe85493aa20a1
+Going to capture ScreenShot
+Screen shot captured successfully
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 39880
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1609238347.798][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+Dec 29, 2020 4:09:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1609238495.735][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238495.735][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238505.736][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238515.745][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238515.746][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238525.749][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238535.759][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238535.760][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238545.764][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238555.784][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238555.785][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238565.791][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238575.798][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238575.798][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238585.802][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238595.812][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238595.813][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238605.817][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238615.879][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238615.879][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238625.886][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238635.895][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238635.896][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238645.896][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238655.905][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238655.906][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238665.910][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238675.927][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238675.929][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238685.931][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238695.939][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238695.939][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238705.941][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238715.948][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238715.948][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238725.948][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238735.962][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238735.963][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238745.963][SEVERE]: Timed out receiving message from renderer: 10.000
+]]></system-err>
+  </testcase>
+  <testcase name="createNewContactTest" classname="com.crm.qa.testcases.ContactsPageTest" time="304.502">
+    <failure message="timeout: Timed out receiving message from renderer: 10.000&#10;  (Session info: chrome=87.0.4280.88)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;NARAYAN-PC&apos;, ip: &apos;192.168.43.204&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: a5cf370d397b61c9b563ba91f6b5fbd5" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a5cf370d397b61c9b563ba91f6b5fbd5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.crm.qa.util.TestUtils.takeScreenShotAtEndOfTest(TestUtils.java:61)
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$214/12674019.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy5.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$$Lambda$215/27479538.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.crm.qa.pages.ContactPage.createNewContact(ContactPage.java:80)
+	at com.crm.qa.testcases.ContactsPageTest.createNewContactTest(ContactsPageTest.java:67)
+</failure>
+    <system-out><![CDATA[2020-12-29 16:12:709 INFO  ContactsPageTest :86 -tearDown method is called
+2020-12-29 16:12:697 INFO  TestBase :49 -Chromer Browser Propery set up and launched successfully
+2020-12-29 16:12:702 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:831 INFO  WaitHelper :26 -WaitHelper object created
+2020-12-29 16:12:831 INFO  WaitHelper :30 -Implicit wait has been set to  .. 120
+2020-12-29 16:12:841 INFO  WaitHelper :137 -Waiting Page to lod for  SECONDS  seconds
+2020-12-29 16:12:851 INFO  WaitHelper :139 -Page is loaded
+Before Navigating to: https://ui.freecrm.com/ 
+Navigated to: https://ui.freecrm.com/ 
+2020-12-29 16:12:561 INFO  TestBase :71 -Driver navigated to...https://ui.freecrm.com/
+2020-12-29 16:12:561 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:564 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:565 INFO  ActionsHelper :17 -ActionsHelper constructor called
+2020-12-29 16:12:565 INFO  WaitHelper :26 -WaitHelper object created
+2020-12-29 16:12:567 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:569 INFO  LoginPage :32 -LoginPage is initialized
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> name: email]
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> name: password]
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> xpath: //*[text()='Login']]
+Before clicking on element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> xpath: //*[text()='Login']]
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> xpath: //*[text()='Login']]
+2020-12-29 16:12:320 INFO  TestBase :34 -Properties file loaded successfully
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> xpath: //a[@href='/contacts']/child::i]
+Before clicking on element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> xpath: //a[@href='/contacts']/child::i]
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> xpath: //a[@href='/contacts']/child::i]
+2020-12-29 16:12:522 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:523 INFO  TestBase :34 -Properties file loaded successfully
+2020-12-29 16:12:525 INFO  ActionsHelper :17 -ActionsHelper constructor called
+2020-12-29 16:12:536 INFO  WaitHelper :26 -WaitHelper object created
+2020-12-29 16:12:536 INFO  ContactsPageTest :39 -class com.crm.qa.testcases.ContactsPageTest  Setup method is called..
+Before find by element: null
+After find by element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> xpath: //button[text()='New']]
+Before clicking on element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> xpath: //button[text()='New']]
+Clicked on element: [[ChromeDriver: chrome on WINDOWS (a5cf370d397b61c9b563ba91f6b5fbd5)] -> xpath: //button[text()='New']]
+Before find by element: null
+---------Exception Occurred ------
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='first_name']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a5cf370d397b61c9b563ba91f6b5fbd5
+*** Element info: {Using=name, value=first_name}
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a5cf370d397b61c9b563ba91f6b5fbd5
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a5cf370d397b61c9b563ba91f6b5fbd5
+Going to capture ScreenShot
+---------Exception Occurred ------
+timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NARAYAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Narayan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a5cf370d397b61c9b563ba91f6b5fbd5
+Going to capture ScreenShot
+Screen shot captured successfully
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 12622
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1609238752.668][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+Dec 29, 2020 4:15:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1609238900.946][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238900.947][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238910.950][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238920.962][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238920.963][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238930.967][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238940.974][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238940.974][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238950.978][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238960.998][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238961.000][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238971.010][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238981.022][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609238981.024][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609238991.029][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609239001.039][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609239001.040][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609239011.046][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609239021.070][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609239021.072][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609239031.075][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609239041.082][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609239041.083][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609239051.083][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609239061.092][SEVERE]: Timed out receiving message from renderer: 10.000
+[1609239061.092][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
+[1609239071.092][SEVERE]: Timed out receiving message from renderer: 10.000
+]]></system-err>
+  </testcase>
+</testsuite>

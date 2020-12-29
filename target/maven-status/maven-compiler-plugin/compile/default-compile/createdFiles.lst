@@ -1,0 +1,16 @@
+com\crm\qa\pages\TaskPage.class
+com\crm\qa\ExtentReportListener\ExtentReportListener.class
+com\crm\qa\pages\HomePage.class
+com\crm\qa\util\WaitHelper.class
+com\crm\qa\pages\LoginPage.class
+com\crm\qa\pages\DealPage.class
+com\crm\qa\util\PropertyReader.class
+com\crm\qa\base\TestBase.class
+com\crm\qa\pages\SignUpPage.class
+com\crm\qa\util\ResourceHelper.class
+com\crm\qa\util\LoggerHelper.class
+com\crm\qa\util\TestUtils.class
+com\crm\qa\util\WebEventListener.class
+com\crm\qa\util\dropdownHelper.class
+com\crm\qa\pages\ContactPage.class
+com\crm\qa\util\ActionsHelper.class
